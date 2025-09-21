@@ -41,7 +41,7 @@ The original Microsoft MSSQL MCP server has been enhanced to support:
 
 2. **Run the setup script**
    ```powershell
-   .\setup-mssql-mcp.ps1 -ServerName "your-server.com" -DatabaseName "your-database" -Username "your-username" -Password "your-password" -ConfigureVSCode
+   .\setup-mssql-mcp.ps1 -ServerName "localhost\SQLEXPRESS" -DatabaseName "TestDB" -Username "mcpuser" -Password "mypassword" -ConfigureVSCode
    ```
 
 ### Configuration Options
