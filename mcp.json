@@ -1,0 +1,22 @@
+{
+  "servers": {
+    "MSSQL MCP": {
+      "type": "stdio",
+      "command": "node",
+      //"args": ["C:\\Temp\\mcp_downloads_MSSQL\\SQL-AI-samples\\MssqlMcp\\Node\\dist\\index.js"],
+      "args": ["C:\\Users\\Admin\\.mcp\\servers\\mssql\\SQL-AI-samples\\MssqlMcp\\Node\\dist\\index.js"],
+      "env": {
+        "SERVER_NAME": "62.171.143.85",
+        "DATABASE_NAME": "SMI-MTP-DOH-MPIS-PROD-ZAN-12-SEPT-2025",
+        "USERNAME": "",
+        "PASSWORD": "",
+        "READONLY": "false",
+        "ENCRYPT": "true",
+        "TRUST_SERVER_CERTIFICATE": "true"
+      },
+      "dev": {
+        "debug": { "type": "node" }
+      }
+    }
+  }
+}
